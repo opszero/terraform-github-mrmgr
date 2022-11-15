@@ -8,8 +8,8 @@ module "github" {
 
   repos = {
     "example" = {
-      repo_description = "example repo"
-      visibility       = "public"
+      description = "example repo"
+      visibility  = "public"
     }
   }
 

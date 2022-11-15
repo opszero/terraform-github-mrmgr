@@ -18,7 +18,6 @@ module "team" {
 resource "github_repository" "repo" {
   for_each    = var.repos
   name        = each.key
-  description = each.value.repo_description
-
-  visibility = each.value.visibility
+  description = each.value.description
+  visibility  = each.value.visibility
 }
