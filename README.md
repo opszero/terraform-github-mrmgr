@@ -2,6 +2,10 @@
 # MrMgr (Github)
 
 ```
+provider "github" {
+  token = var.token # or `GITHUB_TOKEN`
+}
+
 module "github" {
   source = "github.com/opszero/terraform-github-mrmgr"
 
