@@ -64,6 +64,7 @@ module "github" {
 | Name | Type |
 |------|------|
 | [github_repository.repo](https://registry.terraform.io/providers/hashicorp/github/latest/docs/resources/repository) | resource |
+| [github_repository_dependabot_security_updates.dependabot](https://registry.terraform.io/providers/hashicorp/github/latest/docs/resources/repository_dependabot_security_updates) | resource |
 ## Outputs
 
 No outputs.
